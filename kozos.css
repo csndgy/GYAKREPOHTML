@@ -1,6 +1,7 @@
 body{
     background: url(./hatter.jpg);
     backdrop-filter: blur(5px);
+
 }
 h1 {
     color: lawngreen;
