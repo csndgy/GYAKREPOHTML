@@ -9,7 +9,6 @@ body{
     backdrop-filter: blur(5px);
     color: aliceblue;
 }
-
 h1 {
     color: rgb(206, 218, 194);
 }
@@ -21,4 +20,11 @@ li img {
     width: 10%;
     height: 10%;
     position:absolute;
+}
+.hatter {
+ grid-area: "hatter";
+}
+tr {
+   color: #fff;
+   padding: 50px;
 }
