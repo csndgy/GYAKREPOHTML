@@ -1,12 +1,18 @@
 body{
-    background: url(./hatter.jpg);
+    position:absolute;
     backdrop-filter: blur(5px);
-
+    color: aliceblue;
 }
 h1 {
-    color: lawngreen;
+    color: rgb(206, 218, 194);
 }
 
 li{
-    background-color: aqua;
+    background-color: rgb(104, 119, 119);
+}
+
+li img {
+    width: 10%;
+    height: 10%;
+    position:absolute;
 }
