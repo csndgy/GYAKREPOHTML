@@ -8,15 +8,10 @@ body{
     background-image: url("./hatter.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    display: gird;
-    gap: 15px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas:"hatter" "div" "div" 
-    "div" "div" "div"
-    "div" "div" "div"/ 100px 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 .Card {
     grid-area: "div";
     background-color: red;
@@ -27,16 +22,17 @@ body{
 .Card :nth-of-type(1) 
 {
     background-color: green;
-
 }
-
 h1 {
     color: lawngreen;
 }
 li{
     background-color: aqua;
 }
-
 .hatter {
  grid-area: "hatter";
+}
+tr {
+   color: #fff;
+   padding: 50px;
 }
