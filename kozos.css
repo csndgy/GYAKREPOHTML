@@ -1,12 +1,12 @@
 body{
-    background: url(./hatter.jpg);
+    background: url(./hatter.jpg) no-repeat;
     backdrop-filter: blur(5px);
-
+    width: 100%;
+    height: 100%;
 }
 h1 {
     color: purple;
 }
-
 li{
     background-color: aqua;
 }
